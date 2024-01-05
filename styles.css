@@ -1,0 +1,1371 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    transition: .3s;
+    text-rendering: optimizeSpeed;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header{
+    width: 100%;
+    height: 87vh;
+    border-bottom: 10px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  swiper-slide .slide{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url('head1.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+
+  swiper-slide .slide1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url('head2.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+
+  .logo{
+    width: 180px;
+    height: 60px;
+    background-image: url('lexuslogo.png');
+    background-position: center;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+
+  .part1{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    border-top: 10px;
+  }
+
+  .part3{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .part3box{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+
+  .part3box1{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .part3box1pic1{
+    background-image: url('parrt31.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .part3box1pic2{
+    background-image: url('parrt32.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .part3box1pic3{
+    background-image: url('parrt33.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .part3text{
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .part3btn{
+    width: 190px;
+    height: 60px;
+    border: 3px solid black;
+    margin-top: 20px;
+  }
+
+  .part3{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .part4{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .part4flow{
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    gap: 80px;
+    overflow-x: scroll; 
+  }
+
+  .part4cars1{
+    background-image: url('ex1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars2{
+    background-image: url('ex2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars3{
+    background-image: url('ex3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars4{
+    background-image: url('ex4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars5{
+    background-image: url('ex5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars6{
+    background-image: url('ex6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars7{
+    background-image: url('ex7.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars8{
+    background-image: url('ex8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars9{
+    background-image: url('ex9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars10{
+    background-image: url('ex10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+
+  .part4cars11{
+    background-image: url('ex11.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars12{
+    background-image: url('ex12.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars13{
+    background-image: url('ex13.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part4cars14{
+    background-image: url('ex15.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* width: 700px; */
+    height: 200px;
+  }
+
+  .part5{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .part5pic{
+    background-image: url('sec2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+  }
+
+  .part5top{
+    width: 70%;
+    display: flex;
+    text-align: center;
+  }
+
+  .part6{
+    width: 100%;
+    height: fit-content;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .part6hold{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .part61{
+    width: 33%;
+    height: 400px;
+    background-image: url('sec31.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part62{
+    width: 33%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .part63{
+    width: 33%;
+    height: 400px;
+    background-image: url('sec34.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part64{
+    width: 100%;
+    height: 200px;
+    background-image: url('sec32.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part65{
+    width: 100%;
+    height: 200px;
+    background-image: url('sec33.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part7{
+    width: 100%;
+    height: fit-content;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .part7hold{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .part71{
+    width: 33%;
+    height: 500px;
+    background-image: url('sec41.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part72{
+    width: 33%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .part73{
+    width: 33%;
+    height: 500px;
+    background-image: url('sec44.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part74{
+    width: 100%;
+    height: 250px;
+    background-image: url('sec42.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part75{
+    width: 100%;
+    height: 250px;
+    background-image: url('sec43.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part8{
+    width: 100%;
+    height: fit-content;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .part8hold{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+  }
+
+  .part81{
+    width: 33%;
+    height: 400px;
+    background-image: url('sec51.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part82{
+    width: 33%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .part83{
+    width: 33%;
+    height: 400px;
+    background-image: url('sec54.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part84{
+    width: 100%;
+    height: 200px;
+    background-image: url('sec52.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part85{
+    width: 100%;
+    height: 200px;
+    background-image: url('sec53.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .part9{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .part3box{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+
+  .part3box1{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .part9box1pic1{
+    background-image: url('sec61.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .part9box1pic2{
+    background-image: url('sec62.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .part9box1pic3{
+    background-image: url('sec63.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .part3text{
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .part3btn{
+    width: 190px;
+    height: 60px;
+    border: 3px solid black;
+    margin-top: 20px;
+  }
+
+  .part9{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  footer{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cus{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+}
+
+.cnus{
+    color: white;
+}
+
+.holder{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.holder1{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.holder2{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.holder3{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.holder4{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.hold1{
+    color: white;
+}
+
+.hold12{
+    color: white;
+}
+
+.hold13{
+    color: white;
+}
+
+.hold14{
+    color: white;
+}
+
+.hold21{
+    color: white;
+}
+
+.hold22{
+    color: white;
+}
+
+.hold23{
+    color: white;
+}
+
+.hold24{
+    color: white;
+}
+
+.hold31{
+    color: white;
+}
+
+.hold32{
+    color: white;
+}
+
+.hold33{
+    color: white;
+}
+
+.hold34{
+    color: white;
+}
+
+.hold41{
+    color: white;
+}
+
+.hold42{
+    color: white;
+}
+
+.hold43{
+    color: white;
+}
+
+.engl1{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 159, 159);
+    justify-content: center;
+    border: 2px solid rgb(160, 159, 159);
+    border-radius: 5px;
+    gap: 7px;
+    cursor: pointer;
+}
+
+
+  @media screen and (max-width: 700px){
+    nav{
+      width: 100%;
+      height: 13vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  
+  header{
+      width: 100%;
+      height: 87vh;
+      border-bottom: 10px;
+  }
+  
+  swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+  
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    swiper-slide .slide{
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-image: url('head1.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 200% 100% ;
+    }
+  
+    swiper-slide .slide1{
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-image: url('head2.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 200% 100%;
+    }
+  
+    .logo{
+      width: 180px;
+      height: 60px;
+      background-image: url('lexuslogo.png');
+      background-position: center;
+      background-size: 100%, 100%;
+      background-repeat: no-repeat;
+      background-color: white;
+    }
+  
+    .part1{
+      width: 100%;
+      height: 100px;
+      background-color: black;
+      border-top: 10px;
+    }
+  
+    .part3{
+      width: 100%;
+      height: fit-content;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .part3box{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+  
+    .part3box1{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .part3box1pic1{
+      background-image: url('parrt31.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 90%;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+  
+    .part3box1pic2{
+      background-image: url('parrt32.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 200px;
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .part3box1pic3{
+      background-image: url('parrt33.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 200px;
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .part3text{
+      margin-top: 20px;
+      width: 80%;
+    }
+  
+    .part3btn{
+      width: 190px;
+      height: 60px;
+      border: 3px solid black;
+      margin-top: 20px;
+    }
+  
+    .part3{
+      width: 100%;
+      height: fit-content;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .part4{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .part4flow{
+      width: 100%;
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+      gap: 80px;
+      overflow-x: scroll; 
+    }
+  
+    .part4cars1{
+      background-image: url('ex1.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars2{
+      background-image: url('ex2.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars3{
+      background-image: url('ex3.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars4{
+      background-image: url('ex4.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars5{
+      background-image: url('ex5.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars6{
+      background-image: url('ex6.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars7{
+      background-image: url('ex7.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars8{
+      background-image: url('ex8.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars9{
+      background-image: url('ex9.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars10{
+      background-image: url('ex10.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+  
+    .part4cars11{
+      background-image: url('ex11.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars12{
+      background-image: url('ex12.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars13{
+      background-image: url('ex13.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part4cars14{
+      background-image: url('ex15.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+      /* width: 700px; */
+      height: 200px;
+    }
+  
+    .part5{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      padding-top: 50px;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .part5pic{
+      background-image: url('sec2.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 180% 100%;
+      width: 100%;
+      height: 350px;
+    }
+
+    .part5top{
+      width: 70%;
+      display: flex;
+      text-align: center;
+    }
+  
+    .part6{
+      width: 100%;
+      height: fit-content;
+      padding-top: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+    }
+  
+    .part6hold{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .part61{
+      width: 90%;
+      height: 400px;
+      background-image: url('sec31.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .part62{
+      width: 90%;
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .part63{
+      width: 90%;
+      height: 400px;
+      background-image: url('sec34.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part64{
+      width: 100%;
+      height: 400px;
+      background-image: url('sec32.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part65{
+      width: 100%;
+      height: 400px;
+      background-image: url('sec33.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part7{
+      width: 100%;
+      height: fit-content;
+      padding-top: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+    }
+  
+    .part7hold{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .part71{
+      width: 90%;
+      height: 500px;
+      background-image: url('sec41.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part72{
+      width: 90%;
+      height: 1000px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .part73{
+      width: 90%;
+      height: 500px;
+      background-image: url('sec44.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part74{
+      width: 100%;
+      height: 500px;
+      background-image: url('sec42.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part75{
+      width: 100%;
+      height: 500px;
+      background-image: url('sec43.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part8{
+      width: 100%;
+      height: fit-content;
+      padding-top: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+    }
+  
+    .part8hold{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .part81{
+      width: 90%;
+      height: 400px;
+      background-image: url('sec51.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part82{
+      width: 90%;
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .part83{
+      width: 90%;
+      height: 400px;
+      background-image: url('sec54.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part84{
+      width: 100%;
+      height: 400px;
+      background-image: url('sec52.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part85{
+      width: 100%;
+      height: 400px;
+      background-image: url('sec53.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  
+    .part9{
+      width: 100%;
+      height: fit-content;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .part3box{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+    }
+  
+    .part3box1{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .part9box1pic1{
+      background-image: url('sec61.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 90%;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+  
+    .part9box1pic2{
+      background-image: url('sec62.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 200px;
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .part9box1pic3{
+      background-image: url('sec63.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 200px;
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .part3text{
+      margin-top: 20px;
+      width: 80%;
+    }
+  
+    .part3btn{
+      width: 190px;
+      height: 60px;
+      border: 3px solid black;
+      margin-top: 20px;
+    }
+  
+    .part9{
+      width: 100%;
+      height: fit-content;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .futu{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .holder{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 100px;
+      margin-top: 20px;
+  }
+  }
+  
+
+
+
+
